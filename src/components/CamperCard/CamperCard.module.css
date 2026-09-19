@@ -1,0 +1,60 @@
+.card {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  background-color: var(--inputs);
+  border-radius: 20px;
+}
+
+.img {
+  flex-shrink: 0;
+  width: 219px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.description {
+  width: 100%;
+  max-width: 524px;
+  margin: 24px 0;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}

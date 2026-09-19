@@ -1,0 +1,23 @@
+.card {
+  padding: 24px;
+  background-color: var(--inputs);
+  border-radius: 20px;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.price {
+  margin: 16px 0 24px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.description {
+  color: var(--text);
+}

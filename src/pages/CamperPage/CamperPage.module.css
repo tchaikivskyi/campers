@@ -1,0 +1,41 @@
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 64px 64px 100px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 638px 1fr;
+  align-items: start;
+  gap: 24px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reviews {
+  margin-top: 88px;
+}
+
+.reviews .grid {
+  grid-template-columns: 1fr 641px;
+  gap: 48px;
+}
+
+.title {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.message {
+  padding: 40px 0;
+  font-size: 20px;
+  text-align: center;
+  color: var(--text);
+}

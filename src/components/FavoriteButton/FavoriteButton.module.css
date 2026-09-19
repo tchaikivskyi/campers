@@ -1,0 +1,13 @@
+.btn {
+  display: flex;
+  padding: 0;
+  color: var(--main);
+  background: none;
+  border: none;
+  transition: color 0.3s;
+}
+
+.btn:hover,
+.active {
+  color: var(--error);
+}

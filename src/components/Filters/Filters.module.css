@@ -1,0 +1,100 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: var(--inputs);
+  border-radius: 20px;
+}
+
+.label {
+  margin-bottom: 8px;
+  padding: 0;
+  color: var(--gray);
+}
+
+.inputWrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.inputIcon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: var(--main);
+  pointer-events: none;
+}
+
+.input {
+  width: 100%;
+  height: 56px;
+  padding: 0 20px 0 48px;
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--main);
+  background-color: var(--white);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input::placeholder {
+  color: var(--gray);
+}
+
+.input:focus {
+  border-color: var(--button);
+}
+
+.title {
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 24px;
+  padding: 0;
+  border: none;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.option input {
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  border: 1px solid var(--main);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.option input[type='checkbox'] {
+  border-radius: 6px;
+}
+
+.option input:checked {
+  background-color: var(--text);
+  box-shadow: inset 0 0 0 5px var(--inputs);
+}
+
+.btn {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.btn + .btn {
+  margin-top: 16px;
+}

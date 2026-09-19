@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: calc(100vh - 72px);
+  padding: 195px 64px 0;
+  color: var(--inputs);
+  background-color: var(--main);
+  background-image: url('../../assets/hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.text {
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}

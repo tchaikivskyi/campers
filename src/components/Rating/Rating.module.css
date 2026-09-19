@@ -1,0 +1,12 @@
+.rating {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  color: var(--gray-light);
+}
+
+.active {
+  color: var(--rating);
+}

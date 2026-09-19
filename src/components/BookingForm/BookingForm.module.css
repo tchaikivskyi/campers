@@ -1,0 +1,82 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 44px 56px;
+  border: 1px solid var(--gray-light);
+  border-radius: 20px;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.text {
+  margin-bottom: 24px;
+  color: var(--text);
+}
+
+.field {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.input {
+  width: 100%;
+  height: 60px;
+  padding: 0 48px 0 18px;
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--main);
+  background-color: var(--inputs);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input::placeholder {
+  color: var(--gray);
+}
+
+.input:focus {
+  border-color: var(--button);
+}
+
+.inputError {
+  composes: input;
+  background-color: var(--error-bg);
+  border-color: var(--error);
+}
+
+.errorLabel {
+  position: absolute;
+  top: -9px;
+  left: 18px;
+  padding: 0 6px;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--error);
+  background-color: var(--error-bg);
+  border: 1px solid var(--error);
+  border-radius: 8px;
+}
+
+.errorIcon {
+  position: absolute;
+  top: 20px;
+  right: 18px;
+  color: var(--error);
+}
+
+.error {
+  display: block;
+  margin-top: 4px;
+  color: var(--error);
+}
+
+.btn {
+  margin-top: 8px;
+}

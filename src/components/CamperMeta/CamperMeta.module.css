@@ -1,0 +1,14 @@
+.meta {
+  display: flex;
+  gap: 16px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.star {
+  color: var(--rating);
+}
